@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: /produdoro/api
+
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      url: ${mongodb+srv://emillimanzoli:<senhamongodb>@cluster0.bnfkaav.mongodb.net/cluster0?retryWrites=true&w=majority}
+      auto-index-creation: true
